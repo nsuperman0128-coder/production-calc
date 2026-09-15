@@ -1,11 +1,13 @@
 {
-  "name": "生産数量計算",
-  "short_name": "生産数量",
+  "name": "成形計算ツール",
+  "short_name": "成形計算",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f3f4f6",
-  "theme_color": "#111827",
+  "theme_color": "#0f172a",
+  "lang": "ja",
+  "description": "生産数量、必要成形機台数、材料使用量・原価、不良率・歩留まりを計算",
   "icons": [
     {
       "src": "icon-192.png",
