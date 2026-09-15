@@ -315,7 +315,7 @@ function copyYield(){copyText(`【不良率・歩留まり】
 
 loadAll(); calculateAll();
 if('serviceWorker' in navigator){
- window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+ window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).catch(()=>{}));
 }
 </script>
 </body>
